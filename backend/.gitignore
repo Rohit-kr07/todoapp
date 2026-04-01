@@ -1,0 +1,69 @@
+# ======================
+# Node Modules
+# ======================
+node_modules/
+
+# ======================
+# Logs
+# ======================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Build / Output
+# ======================
+dist/
+build/
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Temporary Files
+# ======================
+tmp/
+temp/
+
+# ======================
+# Coverage Reports
+# ======================
+coverage/
+
+# ======================
+# Database Files (if local)
+# ======================
+*.sqlite
+*.db
+
+# ======================
+# Docker
+# ======================
+docker-compose.override.yml
+
+# ======================
+# Misc
+# ======================
+*.pid
+*.seed
+*.pid.lock
