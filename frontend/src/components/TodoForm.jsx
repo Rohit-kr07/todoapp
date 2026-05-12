@@ -19,7 +19,7 @@ const TodoForm = ({ addTodo }) => {
         onChange={(e) => setText(e.target.value)}
       />
       <Button variant="contained" onClick={handleSubmit}>
-        Add
+        Add button
       </Button>
     </Box>
   );
